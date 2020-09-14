@@ -1,0 +1,12 @@
+{
+	"name": "AzureKeyVault1",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://MelTestKV.vault.azure.net/"
+		},
+		"description": "asd"
+	}
+}
