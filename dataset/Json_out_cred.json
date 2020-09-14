@@ -1,0 +1,19 @@
+{
+	"name": "Json_out_cred",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gen2SpnCred",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sink",
+				"fileSystem": "fs1"
+			}
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
