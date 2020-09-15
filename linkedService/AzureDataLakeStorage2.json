@@ -1,0 +1,25 @@
+{
+	"name": "AzureDataLakeStorage2",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://xlgen2.dfs.core.windows.net",
+			"tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+			"servicePrincipalId": "asdasdasd",
+			"servicePrincipalKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "xl_adf_akv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "asdasd"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
