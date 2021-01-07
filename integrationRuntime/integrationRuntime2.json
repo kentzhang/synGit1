@@ -1,11 +1,11 @@
 {
-	"name": "AutoResolveIntegrationRuntime",
+	"name": "integrationRuntime2",
 	"properties": {
 		"type": "Managed",
-		"description": "s",
+		"description": "jko",
 		"typeProperties": {
 			"computeProperties": {
-				"location": "AutoResolve",
+				"location": "Australia Southeast",
 				"dataFlowProperties": {
 					"computeType": "General",
 					"coreCount": 8,
